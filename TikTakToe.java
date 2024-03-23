@@ -68,7 +68,7 @@ public class TikTakToe implements ActionListener {
                 textfield.setText("X turn");
                 check();
         }
-      }
+    }
         }
     }
     }
@@ -156,7 +156,14 @@ public class TikTakToe implements ActionListener {
             xWins(0, 4, 8);
         }
         
-        
+        if(
+            (buttons[2].getText()=="X") &&
+            (buttons[4].getText()=="X") &&
+            (buttons[6].getText()=="X")
+        )
+        {
+            xWins(2, 4, 6);
+        }
 
         //O's Turn
 
@@ -196,6 +203,7 @@ public class TikTakToe implements ActionListener {
         {
             oWins(0, 3, 6);
         }
+        //de_bes
         if(
             (buttons[1].getText()=="O") &&
             (buttons[4].getText()=="O") &&
@@ -223,6 +231,14 @@ public class TikTakToe implements ActionListener {
         {
             oWins(0, 4, 8);
         }
+        if(
+            (buttons[2].getText()=="O") &&
+            (buttons[4].getText()=="O") &&
+            (buttons[6].getText()=="O")
+        )
+        {
+            oWins(2, 4, 6);
+        }
         boolean isDraw = true;
         for (int i = 0; i < 9; i++) {
             if (buttons[i].getText().equals("")) {
@@ -243,7 +259,7 @@ public class TikTakToe implements ActionListener {
     
 
     
-    // x won
+    // x Won
     public void xWins(int a , int b , int c ){
         buttons[a].setBackground(Color.GREEN);
         buttons[b].setBackground(Color.GREEN);
