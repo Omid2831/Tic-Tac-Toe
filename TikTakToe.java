@@ -165,7 +165,7 @@ public class TikTakToe implements ActionListener {
             xWins(2, 4, 6);
         }
 
-        //O's Turn
+        //O's Turn1
 
         if(
             (buttons[0].getText()=="O") &&
