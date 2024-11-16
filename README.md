@@ -26,7 +26,7 @@ This is a **native Java** implementation of the classic **Tic Tac Toe** game. Th
 ### Clone the Repository
 1. Open your terminal and clone the repository:
 ```bash
-   git clone https://github.com/Omid2831/Tic-tac-toe.git
+git clone https://github.com/Omid2831/Tic-tac-toe.git
 ```
 2. Navigate into the project directory:
 ```bash
