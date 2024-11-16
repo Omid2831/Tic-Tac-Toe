@@ -9,8 +9,6 @@ This is a **native Java** implementation of the classic **Tic Tac Toe** game. Th
 ### Gameplay Example:
 [![Watch the Gameplay](capture/pic.png)](capture/CapMyVid.mp4)
 
-*(Click the image to view/download the gameplay video.)*
-
 ---
 
 ## ✨ Features
@@ -18,8 +16,6 @@ This is a **native Java** implementation of the classic **Tic Tac Toe** game. Th
 - **Two-player gameplay**: Play with friends using classic Tic Tac Toe rules.
 - **GUI built with Swing**: Intuitive interface for quick interactions.
 - **Dynamic game logic**: The game checks for winners and draws automatically.
-- **Replayability**: Restart the game after each round to play again.
-
 ---
 
 ## 🚀 How to Run
@@ -45,11 +41,9 @@ javac main.java TikTakToe.java
 ``` bash
  java main 
 ```
-(Ensure main.java is your program's entry point.)  
+(Please make sure main.java is your program's entry point.)  
 ---
 ### 🛠️ File Structure
-
-
   <pre>
 📂 Tic-tac-toe
  ├── main.java            # Main entry point of the application
