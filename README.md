@@ -8,7 +8,6 @@ This is a **native Java** implementation of the classic **Tic Tac Toe** game. Th
 ### Gameplay Example:
 [![Gameplay Screenshot](capture/pic.png)](capture/CapMyVid.mp4)
 > *Click the image above to watch the gameplay video.*
-
 ## ✨ Features
 
 - **Two-player gameplay**: Play with friends using classic Tic Tac Toe rules.
@@ -52,6 +51,32 @@ java -cp bin main
  │    ├── CapMyVid.mp4      # Gameplay video
  │    └── pic.png         # Screenshot of the game
     </pre>
+---
+## 🧑‍💻 How It Works
+
+The game operates as follows:
+
+1. **Game Setup**
+   - The game is played on a 3x3 grid.
+   - Two players take turns to mark their respective symbols (`X` or `O`).
+
+2. **Gameplay**
+   - The GUI dynamically updates to reflect each player's move.
+   - Players alternate turns until a win, draw, or loss condition is met.
+
+3. **Game Result Detection**
+   - The program checks for the following outcomes:
+     - **Wins**:
+       - Three aligned marks (horizontally, vertically, or diagonally).
+     - **Loss**:
+       - The other player achieves three aligned marks.
+     - **Draws**:
+       - The board is full, and no player has achieved three aligned marks.
+
+4. **Feedback**
+   - The GUI highlights:
+     - Winning cells if a player wins.
+     - A message indicates the game result (win, loss, or draw).
 ---
 
 
