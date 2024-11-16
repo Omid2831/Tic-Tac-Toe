@@ -30,16 +30,20 @@ git clone https://github.com/Omid2831/Tic-tac-toe.git
 ```
 2. Navigate into the project directory:
 ```bash
-cd ./Tiktaktoe
+cd Tic-tac-toe
 ```
 ### Compile and Run
-1. Compile the source files:
+1. Create the `bin` directory if it doesn't already exist:
 ``` bash 
-javac main.java TikTakToe.java
+mkdir bin
 ```
-2. Run the program:
+2. Compile the source files and place the compiled classes in the `bin` directory:
 ``` bash
-java main 
+javac -d bin src/main/java/Main.java src/main/java/TikTakToe.java
+```
+3. Run the program:
+```bash
+java -cp bin Main
 ```
 (Please make sure main.java is your program's entry point.)  
 ---
