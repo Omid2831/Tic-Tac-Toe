@@ -40,10 +40,11 @@ mkdir bin
 2. Compile the source files and place the compiled classes in the `bin` directory:
 ``` bash
 javac -d bin src/main/java/Main.java src/main/java/TikTakToe.java
+
 ```
 3. Run the program:
 ```bash
-java -cp bin Main
+java -cp bin main
 ```
 (Please make sure main.java is your program's entry point.)  
 ---
