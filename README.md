@@ -30,7 +30,7 @@ git clone https://github.com/Omid2831/Tic-tac-toe.git
 ```
 2. Navigate into the project directory:
 ```bash
-cd Tiktaktoe
+cd ./Tiktaktoe
 ```
 ### Compile and Run
 1. Compile the source files:
