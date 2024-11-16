@@ -5,11 +5,9 @@ This is a **native Java** implementation of the classic **Tic Tac Toe** game. Th
 ---
 
 ## 🖼️ Demo
-
 ### Gameplay Example:
-[![Watch the Gameplay](capture/pic.png)](capture/CapMyVid.mp4)
-
----
+[![Gameplay Screenshot](capture/pic.png)](capture/CapMyVid.mp4)
+> *Click the image above to watch the gameplay video.*
 
 ## ✨ Features
 
