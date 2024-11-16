@@ -19,7 +19,7 @@ This is a **native Java** implementation of the classic **Tic Tac Toe** game. Th
 ## 🚀 How to Run
 
 ### Prerequisites
-- **Java Development Kit (JDK)** installed (version 8 or higher).
+- [**Java Development Kit (JDK)**](https://www.oracle.com/java/technologies/downloads/) installed (version 8 or higher)
 
 ### Clone the Repository
 1. Open your terminal and clone the repository:
