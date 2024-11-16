@@ -39,7 +39,7 @@ javac main.java TikTakToe.java
 ```
 2. Run the program:
 ``` bash
- java main 
+java main 
 ```
 (Please make sure main.java is your program's entry point.)  
 ---
