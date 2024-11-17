@@ -50,7 +50,7 @@ java -cp bin main
  ├── main.class           # Compiled bytecode for main
  ├── TikTakToe.class      # Compiled bytecode for game logic
  ├── 📂 capture
- │    ├── CapMyVid.mp4      # Gameplay video
+ │    ├── Demo.mp4      # Gameplay video
  │    └── pic.png         # Screenshot of the game
     </pre>
 ---
